@@ -3,7 +3,8 @@
     "allowSyntheticDefaultImports": true,
     "noImplicitAny": true,
     "strictNullChecks": true,
-    "target": "esnext"
+    "target": "esnext",
+    "types": ["node"]
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules"]

@@ -23,7 +23,7 @@ export class Blockchain {
   {
     this.append({
       body: 'The pioneer'
-    })
+    });
   }
 
   private getHashOfTheMostRecentBlock(): string {
